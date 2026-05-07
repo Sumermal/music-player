@@ -18,7 +18,7 @@ A modern music player built using HTML, CSS, and JavaScript.
 
 ## Live Demo
 
-Add GitHub Pages link here.
+https://sumermal.github.io/music-player/
 
 ## Screenshot
 
