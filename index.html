@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Music Player</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+
+<body>
+
+  <div class="music-player">
+
+    <img src="images/Ganga.jpg" class="cover">
+
+    <h2 class="song-title">Song Name</h2>
+
+    <h3 class="artist">Artist Name</h3>
+
+    <audio class="audio"></audio>
+
+    <input type="range" value="0" class="progress">
+
+    <div class="controls">
+
+      <button class="prev">
+        <i class="fas fa-step-backward"></i>
+      </button>
+
+      <button class="play">
+        <i class="fas fa-play"></i>
+      </button>
+
+      <button class="next">
+        <i class="fas fa-step-forward"></i>
+      </button>
+
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
